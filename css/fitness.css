@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: rgb(17, 17, 17);
+}
+
+
+/* navbar starts here */
+.navbar-section {
+    max-width: 1440px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar-head {
+    color: #E6533C;
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 2rem;
+
+}
+
+.sub-container-two {
+    margin-left: 20px;
+}
+
+.menu {
+    background-color: #E6533C;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-left: 40px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+.hamburger-menu{
+    display: none;
+    color: white;
+}
+
+/* navbar ends here */

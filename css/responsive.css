@@ -1,0 +1,22 @@
+@media screen and (max-width: 576px) {
+    .hamburger-menu{
+        display: block;
+    }
+    .sub-containe-two{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-containe-two{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .menu{
+        padding: 0px;
+    }
+}
