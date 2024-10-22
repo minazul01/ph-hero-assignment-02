@@ -5,6 +5,37 @@
     .sub-containe-two{
         display: none;
     }
+    .container {
+       flex-direction: column;
+       width: 100%;
+    }
+    .header-img-one{
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .header-card-two {
+       position: absolute;
+    }
+    .primary-btn-black{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .habit-tittle{
+        width: 100%;
+    }
+    .habit-head{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    .habit-card-para {
+      
+        margin: 0 auto;
+    }
+    .sub-habit-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -19,4 +50,20 @@
     .menu{
         padding: 0px;
     }
+    .container {
+        flex-direction: column;
+        width: 100%;
+     }
+     .header-img-one{
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .header-card-two {
+       position: absolute;
+    }
+    .primary-btn-black{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+   
 }
