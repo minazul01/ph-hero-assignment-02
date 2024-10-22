@@ -5,6 +5,12 @@
     .sub-containe-two{
         display: none;
     }
+
+    /* navbar section ends here */
+
+    .header-sub-container{
+        margin-right: 150px;
+    }
     .container {
        flex-direction: column;
        width: 100%;
@@ -14,12 +20,31 @@
         margin-top: 0;
     }
     .header-card-two {
-       position: absolute;
+       position: relative;
+    }
+    .primary-btn{
+        width: 200px;
+        height: 50px;
     }
     .primary-btn-black{
-        margin-left: 5px;
-        margin-top: 10px;
+        width: 269px;
+        height: 50px;
     }
+    .header-btn{
+        display: flex;
+       
+    }
+    .header-head{
+       width: 300px;
+       height: 200px;
+       font-size: 3rem;
+    }
+    .header-para{
+        width: 300px;
+    }
+
+    /* habit section start here */
+
     .habit-tittle{
         width: 100%;
     }
@@ -36,6 +61,64 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
     }
+
+
+    /* run section start here */
+
+
+    .sub-run-container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .run-head{
+       text-align: center;
+       width: 400px;
+       margin-top: 50px;
+    }
+    .run-para{
+        width: 400px;
+    }
+    .sub-run-img-container {
+        width: 400px;
+        height: 312px;
+        margin-top: 20px;
+    }
+  .run-btn{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+  }
+
+  /* BMI & form section start here */
+  .bmi-para{
+    width: 400px;
+    margin-bottom: 50px;
+    font-size: 0.8rem;
+  }
+  .bmi-form-container{
+    flex-direction: column;
+  }
+  .calculator-container{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+  }
+  .table-container{
+    margin-bottom: 50px;
+    margin: 0 auto;
+  }
+  .bmi-same-head-two{
+    width: 400px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .input-text{
+    width: 400px;
+    margin-bottom: 10px;
+  }
+  .big-input{
+    width: 400px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -65,5 +148,29 @@
         margin-left: 5px;
         margin-top: 10px;
     }
-   
+    .habit-head{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    .sub-habit-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    /* run section start here */
+    .run-head{
+        text-align: center;
+        width: 320px;
+        font-size: 2rem;
+        margin-top: 50px;
+     }
+     .run-para{
+        width: 300px;
+    }
+    .sub-run-img-container {
+        width: 200px;
+        height: 350px;
+        margin-top: 20px;
+    }
 }

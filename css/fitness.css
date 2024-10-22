@@ -12,8 +12,8 @@
     font-weight: weight;
     font-style: normal;
     /* background-color: rgb(17, 17, 17); */
-    
-  
+
+
 }
 
 
@@ -88,7 +88,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .header-sub-container {
@@ -111,11 +111,11 @@
     right: 30px;
 }
 
-/* .header-card-two {
-    position: relative;
-    left: 450px;
-    bottom: 450px;
-} */
+.header-card-two {
+    position: absolute;
+    bottom: 400px;
+    right: 100px;
+}
 
 .sercle {
     width: 25px;
@@ -133,7 +133,8 @@
 
 .header-img-one img {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+
 }
 
 .header-head {
@@ -227,22 +228,179 @@
     margin-bottom: 15px;
     /* color: white; */
 }
-.habit-card-container{
+
+.habit-card-container {
     width: 80%;
     margin: 0 auto;
     margin-top: 50px;
 }
-.sub-habit-card-container{
+
+.sub-habit-card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
 }
-.habit-card img{
+
+.habit-card img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     margin-bottom: 20px;
-    
+
 }
 
 /* habit section ends here */
+/* run section starts here */
+.run-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.sub-run-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    margin-top: 100px;
+}
+
+.sub-run-container-two {
+    width: 40%;
+}
+
+.run-primary-btn {
+    padding: 15px 70px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-size: 0.8.5rem;
+    font-weight: 600;
+}
+
+.sub-run-img-container {
+    width: 450px;
+    height: 312px;
+}
+
+.sub-run-img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.run-head {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 15px;
+    /* color: white; */
+}
+
+.run-btn {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.run-para {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 50px;
+    /* color: white; */
+}
+
+/* run section ends here */
+/* BMI section starts here */
+.bmi-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.bmi-tittle {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bmi-head {
+    font-size: 3rem;
+    font-weight: 900;
+    /* color: #fff; */
+}
+
+.bmi-para {
+    font-size: 1rem;
+    font-weight: 400;
+    /* color: #fff; */
+}
+
+.bmi-tittle-apply {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.bmi-form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator-container {
+    width: 45%;
+    border: 2px solid lawngreen;
+}
+
+.calculator-container-two {
+    width: 45%;
+}
+
+.bmi-same-head {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+    /* color: white; */
+}
+
+.bmi-same-head-two {
+    font-size: 1.8rem;
+    font-weight: 900;
+    /* color: white; */
+}
+
+.bmi-table {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.tbody {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.form {
+    margin-top: 25px;
+}
+
+.input-text {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.big-input {
+    width: 505px;
+}
+
+.form-btn {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 50px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    color:  rgb(255, 255, 255);;
+}
+
+/* BMI section ends here */
