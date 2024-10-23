@@ -209,6 +209,7 @@
     font-weight: 400;
     line-height: 24px;
     color: rgb(255, 255, 255);
+    opacity: 0.5;
 }
 
 .habit-card-head {
@@ -228,6 +229,7 @@
     text-align: center;
     margin-bottom: 15px;
     color: rgb(255, 255, 255);
+    opacity: 0.4;
 }
 
 .habit-card-container {
@@ -303,7 +305,6 @@
     width: 200px;
     height: 50px;
     text-align: center;
-
 }
 
 .run-para {
@@ -312,6 +313,7 @@
     line-height: 24px;
     margin-bottom: 50px;
     color: rgb(255, 255, 255);
+    opacity: 0.4;
 }
 
 /* run section ends here */
@@ -337,6 +339,7 @@
     font-size: 1rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
+    opacity: 0.4;
 }
 
 .bmi-tittle-apply {
@@ -398,6 +401,7 @@ td {
 
 .input-text-one {
     width: 475px;
+    margin-bottom: 10px;
 }
 
 .big-input {
@@ -437,6 +441,7 @@ td {
     color: rgb(255, 255, 255);
     width: 50%;
     margin: 20px auto;
+    opacity: 0.5;
 }
 
 .our-main-container {
@@ -504,6 +509,8 @@ td {
     line-height: 24px;
     width: 443px;
     color: rgb(255, 255, 255);
+    margin-top: 30px;
+    opacity: 0.5;
 }
 
 .footer-head {
@@ -519,6 +526,7 @@ td {
     line-height: 22px;
     margin-bottom: 20px;
     color: rgb(255, 255, 255);
+    opacity: 0.4;
 }
 
 .all-right {
@@ -531,5 +539,6 @@ td {
 }
 .horizontal{
     margin-bottom: 50px;
+    opacity: 0.3;
 }
 /* footer sectin ends here */
