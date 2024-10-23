@@ -134,7 +134,24 @@
     width: 350px;
   }
   /* Our team section start here */
+  .our-team-card-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+/* footer section start here */
 
+.footer-container{
+    flex-direction: column;
+}
+.footer-sub-container-two{
+    /* flex-direction: column; */
+}
+.servicess-container{
+    width: 400px;
+    height: 350px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
 
 }
 

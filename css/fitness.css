@@ -11,7 +11,7 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    /* background-color: rgb(17, 17, 17); */
+    background-color: rgb(17, 17, 17);
 
 
 }
@@ -133,7 +133,7 @@
 
 .header-img-one img {
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
 
 }
 
@@ -141,7 +141,7 @@
     font-size: 4.4rem;
     font-weight: 900;
     line-height: 70px;
-    /* color: white; */
+    color: rgb(255, 255, 255);
     margin-bottom: 20px;
 }
 
@@ -149,7 +149,7 @@
     font-size: 2.3rem;
     font-weight: 900;
     line-height: 40px;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
 }
 
 .header-para {
@@ -157,7 +157,7 @@
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 20px;
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .primary-btn {
@@ -177,6 +177,7 @@
     border-radius: 30px;
     color: white;
     margin-left: 15px;
+    border: 1px solid white;
 }
 
 /* header section ends here */
@@ -198,7 +199,7 @@
     font-weight: 900;
     line-height: 48px;
     margin-bottom: 15px;
-    /* color: white; */
+    color: rgb(255, 255, 255);
 }
 
 .habit-para {
@@ -207,7 +208,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
-    /* color: white; */
+    color: rgb(255, 255, 255);
 }
 
 .habit-card-head {
@@ -216,7 +217,7 @@
     line-height: 18px;
     text-align: center;
     margin-bottom: 20px;
-    /* color: white; */
+    color: rgb(255, 255, 255);
 }
 
 .habit-card-para {
@@ -226,7 +227,7 @@
     line-height: 18px;
     text-align: center;
     margin-bottom: 15px;
-    /* color: white; */
+    color: rgb(255, 255, 255);
 }
 
 .habit-card-container {
@@ -295,7 +296,7 @@
     font-weight: 900;
     line-height: 120%;
     margin-bottom: 15px;
-    /* color: white; */
+    color: rgb(255, 255, 255);
 }
 
 .run-btn {
@@ -310,7 +311,7 @@
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 50px;
-    /* color: white; */
+    color: rgb(255, 255, 255);
 }
 
 /* run section ends here */
@@ -329,13 +330,13 @@
 .bmi-head {
     font-size: 3rem;
     font-weight: 900;
-    /* color: #fff; */
+    color: rgb(255, 255, 255);
 }
 
 .bmi-para {
     font-size: 1rem;
     font-weight: 400;
-    /* color: #fff; */
+    color: rgb(255, 255, 255);
 }
 
 .bmi-tittle-apply {
@@ -360,14 +361,15 @@
     font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 50px;
-    /* color: white; */
+    color: rgb(255, 255, 255);
 }
 
 .bmi-same-head-two {
     font-size: 1.8rem;
     font-weight: 900;
-    /* color: white; */
+    color: rgb(255, 255, 255);
 }
+
 .bmi-table {
     font-size: 1rem;
     font-weight: 700;
@@ -377,10 +379,14 @@
     font-size: 0.8rem;
     font-weight: 400;
 }
-td{
-    border: 2px solid red;
+
+td {
+    border: 2px solid white;
     padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
 }
+
 .form {
     margin-top: 25px;
 }
@@ -389,67 +395,141 @@ td{
     width: 235px;
     margin-bottom: 10px;
 }
-.input-text-one{
+
+.input-text-one {
     width: 475px;
 }
+
 .big-input {
     width: 475px;
 }
 
 .form-btn {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
     padding: 16px 50px;
     background-color: rgb(230, 83, 60);
     border-radius: 20px;
     border: none;
     margin-top: 30px;
-    color:  rgb(255, 255, 255);;
+    color: rgb(255, 255, 255);
+    ;
 }
 
 /* BMI section ends here */
 
 
 /* Our team section starts here*/
-.our-team-section{
+.our-team-section {
     max-width: 1440px;
     margin: 100px auto;
 }
-.tittle-container{
+
+.tittle-container {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
-.our-team-head{
-    font-size: 3rem;
-    font-weight: 900;
-    /* color: #fff; */
-}
-.our-team-para{
+
+.our-team-para {
     font-size: 1rem;
     font-weight: 400;
-    /* color: #fff; */
+    color: rgb(255, 255, 255);
     width: 50%;
     margin: 20px auto;
 }
 
-.our-team-card-container{
+.our-main-container {
     width: 80%;
     margin: 0 auto;
+}
 
+.our-team-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-items: center;
+    gap: 10px;
 }
-.img-card{
-    width: 300px;
-    height: 280px;
+
+.img-card {
+    width: 350px;
+    height: 300px;
+    text-align: center;
 }
-.img-card img{
+
+.img-card img {
     width: 100%;
     height: 100%;
 }
-.img-tittle{
+
+.img-tittle {
     position: relative;
     bottom: 80px;
     left: 30px;
     display: inline;
+    color: white;
 }
+
 /* Our team section ends here */
+
+/* footer section starts here */
+.footer-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+}
+
+.footer-sub-container {
+    width: 50%;
+}
+
+.footer-sub-container-two {
+    width: 50%;
+    display: flex;
+}
+
+.servicess-container {
+    width: 50%;
+    justify-items: center;
+}
+
+.footer-small-para {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    width: 443px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-head {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-para {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.all-right {
+    width: 80%;
+    margin: 40px auto;
+    font-size: 1.2;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.horizontal{
+    margin-bottom: 50px;
+}
+/* footer sectin ends here */
