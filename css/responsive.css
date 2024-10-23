@@ -8,9 +8,7 @@
 
     /* navbar section ends here */
 
-    .header-sub-container{
-        /* margin-right: 150px; */
-    }
+    
     .container {
        flex-direction: column;
        width: 100%;
@@ -143,9 +141,6 @@
 .footer-container{
     flex-direction: column;
 }
-.footer-sub-container-two{
-    /* flex-direction: column; */
-}
 .servicess-container{
     width: 400px;
     height: 350px;
@@ -155,6 +150,8 @@
 
 }
 
+
+/* medium device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar-container{
         flex-direction: column;

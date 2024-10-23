@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Pinyon+Script&display=swap');
 
 * {
     margin: 0;
@@ -12,7 +12,6 @@
     font-weight: weight;
     font-style: normal;
     background-color: rgb(17, 17, 17);
-
 
 }
 
@@ -143,6 +142,13 @@
     line-height: 70px;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
+}
+
+.uniq {
+    font-family: "Pinyon Script", cursive;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
 }
 
 .header-head-two {
@@ -537,8 +543,10 @@ td {
     text-align: center;
     color: rgb(255, 255, 255);
 }
-.horizontal{
+
+.horizontal {
     margin-bottom: 50px;
     opacity: 0.3;
 }
+
 /* footer sectin ends here */
