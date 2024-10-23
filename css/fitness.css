@@ -318,6 +318,7 @@
 .bmi-section {
     max-width: 1440px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .bmi-tittle {
@@ -339,7 +340,7 @@
 
 .bmi-tittle-apply {
     width: 620px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .bmi-form-container {
@@ -349,7 +350,6 @@
 
 .calculator-container {
     width: 45%;
-    border: 2px solid lawngreen;
 }
 
 .calculator-container-two {
@@ -368,7 +368,6 @@
     font-weight: 900;
     /* color: white; */
 }
-
 .bmi-table {
     font-size: 1rem;
     font-weight: 700;
@@ -378,18 +377,23 @@
     font-size: 0.8rem;
     font-weight: 400;
 }
-
+td{
+    border: 2px solid red;
+    padding: 5px 10px;
+}
 .form {
     margin-top: 25px;
 }
 
 .input-text {
-    width: 250px;
+    width: 235px;
     margin-bottom: 10px;
 }
-
+.input-text-one{
+    width: 475px;
+}
 .big-input {
-    width: 505px;
+    width: 475px;
 }
 
 .form-btn {
@@ -404,3 +408,48 @@
 }
 
 /* BMI section ends here */
+
+
+/* Our team section starts here*/
+.our-team-section{
+    max-width: 1440px;
+    margin: 100px auto;
+}
+.tittle-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-team-head{
+    font-size: 3rem;
+    font-weight: 900;
+    /* color: #fff; */
+}
+.our-team-para{
+    font-size: 1rem;
+    font-weight: 400;
+    /* color: #fff; */
+    width: 50%;
+    margin: 20px auto;
+}
+
+.our-team-card-container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.img-card{
+    width: 300px;
+    height: 280px;
+}
+.img-card img{
+    width: 100%;
+    height: 100%;
+}
+.img-tittle{
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+    display: inline;
+}
+/* Our team section ends here */

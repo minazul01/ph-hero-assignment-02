@@ -9,7 +9,7 @@
     /* navbar section ends here */
 
     .header-sub-container{
-        margin-right: 150px;
+        /* margin-right: 150px; */
     }
     .container {
        flex-direction: column;
@@ -21,6 +21,7 @@
     }
     .header-card-two {
        position: relative;
+       display: none;
     }
     .primary-btn{
         width: 200px;
@@ -60,8 +61,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
+        margin-right: 2px;
     }
-
 
     /* run section start here */
 
@@ -104,21 +105,37 @@
     text-align: center;
   }
   .table-container{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin: 0 auto;
   }
   .bmi-same-head-two{
-    width: 400px;
-    text-align: center;
+    width: 350px;
+    height: 100px;
+    /* text-align: center; */
     margin-bottom: 50px;
+    margin-top: 100px;
   }
   .input-text{
-    width: 400px;
+    display: inline;
+    width: 315px;
+    margin-bottom: 10px;
+  }
+  .input-text-one{
+    width: 315px;
     margin-bottom: 10px;
   }
   .big-input{
-    width: 400px;
+    width: 315px;
   }
+  .bmi-cal-two{
+    width: 350px;
+  }
+  .bmi-cal-one{
+    width: 350px;
+  }
+  /* Our team section start here */
+
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
